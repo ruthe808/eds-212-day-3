@@ -47,6 +47,20 @@ bananas %*% apples
 # dot product needs function to be together %*% 
 ```
 
+### Matrices
+
+```{r}
+my_values <- seq(from = 1, to = 10)
+# if you want a certain number of data points use lenght equal
+
+my_matrix <- matrix(data = my_values, nrow = 2, ncol = 5, byrow = TRUE)
+my_matrix
+
+5 * my_matrix
+class(my_matrix)
+```
+
+
 
 
 

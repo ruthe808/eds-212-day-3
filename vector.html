@@ -409,6 +409,23 @@ bananas + apples</code></pre>
 ## [1,]   44</code></pre>
 <pre class="r"><code># dot product needs function to be together %*% </code></pre>
 </div>
+<div id="matrices" class="section level3">
+<h3>Matrices</h3>
+<pre class="r"><code>my_values &lt;- seq(from = 1, to = 10)
+# if you want a certain number of data points use lenght equal
+
+my_matrix &lt;- matrix(data = my_values, nrow = 2, ncol = 5, byrow = TRUE)
+my_matrix</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4] [,5]
+## [1,]    1    2    3    4    5
+## [2,]    6    7    8    9   10</code></pre>
+<pre class="r"><code>5 * my_matrix</code></pre>
+<pre><code>##      [,1] [,2] [,3] [,4] [,5]
+## [1,]    5   10   15   20   25
+## [2,]   30   35   40   45   50</code></pre>
+<pre class="r"><code>class(my_matrix)</code></pre>
+<pre><code>## [1] &quot;matrix&quot; &quot;array&quot;</code></pre>
+</div>
 
 
 
